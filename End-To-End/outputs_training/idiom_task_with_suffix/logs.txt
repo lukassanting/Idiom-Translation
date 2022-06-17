@@ -1,0 +1,484 @@
+[16:34:08] [Model]: Loading t5-small...                     <ipython-input-8-80d9688caf0f>:23
+                                                                                             
+[16:34:38] [Data]: Reading data...                          <ipython-input-8-80d9688caf0f>:33
+                                                                                             
+TRAIN Dataset: (1730, 2)
+VALIDATION Dataset: (307, 2)
+
+           [Initiating Fine Tuning]...                      <ipython-input-8-80d9688caf0f>:88
+                                                                                             
+Epoch:  0 Batch:  0 Loss:  2.470376491546631
+Epoch:  0 Batch:  100 Loss:  1.2438377141952515
+Epoch:  0 Batch:  200 Loss:  1.900172472000122
+Epoch:  0 Batch:  300 Loss:  1.4788118600845337
+Epoch:  0 Batch:  400 Loss:  2.1939268112182617
+[Validation] Epoch:  0 Validation Loss:  1.4175805464967506 Meteor:  0.4905025541377396
+[16:37:19] [Saved model and predictions of epoch 0]         <ipython-input-7-3e1f2c4cacc7>:75
+                                                                                             
+Epoch:  1 Batch:  0 Loss:  1.8627156019210815
+Epoch:  1 Batch:  100 Loss:  1.178952693939209
+Epoch:  1 Batch:  200 Loss:  1.9223614931106567
+Epoch:  1 Batch:  300 Loss:  1.6519999504089355
+Epoch:  1 Batch:  400 Loss:  1.0328638553619385
+[Validation] Epoch:  1 Validation Loss:  1.3812462834568766 Meteor:  0.4862620821110388
+Epoch:  2 Batch:  0 Loss:  1.2393995523452759
+Epoch:  2 Batch:  100 Loss:  1.6099563837051392
+Epoch:  2 Batch:  200 Loss:  1.4105594158172607
+Epoch:  2 Batch:  300 Loss:  1.5384290218353271
+Epoch:  2 Batch:  400 Loss:  0.8645367622375488
+[Validation] Epoch:  2 Validation Loss:  1.372876590722567 Meteor:  0.4863275162774608
+Epoch:  3 Batch:  0 Loss:  1.791728138923645
+Epoch:  3 Batch:  100 Loss:  1.6591870784759521
+Epoch:  3 Batch:  200 Loss:  0.6567893624305725
+Epoch:  3 Batch:  300 Loss:  1.1509724855422974
+Epoch:  3 Batch:  400 Loss:  1.2139862775802612
+[Validation] Epoch:  3 Validation Loss:  1.3676418089247369 Meteor:  0.4890002696079417
+Epoch:  4 Batch:  0 Loss:  1.6924810409545898
+Epoch:  4 Batch:  100 Loss:  1.8999751806259155
+Epoch:  4 Batch:  200 Loss:  1.1579272747039795
+Epoch:  4 Batch:  300 Loss:  1.2296650409698486
+Epoch:  4 Batch:  400 Loss:  1.1149049997329712
+[Validation] Epoch:  4 Validation Loss:  1.3724977350854255 Meteor:  0.4871181435930551
+Epoch:  5 Batch:  0 Loss:  1.2497076988220215
+Epoch:  5 Batch:  100 Loss:  1.3036640882492065
+Epoch:  5 Batch:  200 Loss:  1.364794373512268
+Epoch:  5 Batch:  300 Loss:  0.8028244376182556
+Epoch:  5 Batch:  400 Loss:  1.668225884437561
+[Validation] Epoch:  5 Validation Loss:  1.379741236761019 Meteor:  0.4911349028513635
+[16:50:32] [Saved model and predictions of epoch 5]         <ipython-input-7-3e1f2c4cacc7>:75
+                                                                                             
+Epoch:  6 Batch:  0 Loss:  2.157078742980957
+Epoch:  6 Batch:  100 Loss:  0.8209714293479919
+Epoch:  6 Batch:  200 Loss:  1.2236137390136719
+Epoch:  6 Batch:  300 Loss:  0.9209790825843811
+Epoch:  6 Batch:  400 Loss:  1.4562898874282837
+[Validation] Epoch:  6 Validation Loss:  1.3865852673332413 Meteor:  0.4897280953934748
+Epoch:  7 Batch:  0 Loss:  1.5853350162506104
+Epoch:  7 Batch:  100 Loss:  1.1622681617736816
+Epoch:  7 Batch:  200 Loss:  0.715858519077301
+Epoch:  7 Batch:  300 Loss:  1.4654903411865234
+Epoch:  7 Batch:  400 Loss:  1.4438560009002686
+[Validation] Epoch:  7 Validation Loss:  1.4046062741960799 Meteor:  0.48349473851874986
+Epoch:  8 Batch:  0 Loss:  1.2655882835388184
+Epoch:  8 Batch:  100 Loss:  1.376297116279602
+Epoch:  8 Batch:  200 Loss:  1.2438364028930664
+Epoch:  8 Batch:  300 Loss:  1.3415323495864868
+Epoch:  8 Batch:  400 Loss:  0.952418863773346
+[Validation] Epoch:  8 Validation Loss:  1.4058888755835497 Meteor:  0.4905989542236395
+Epoch:  9 Batch:  0 Loss:  1.062587857246399
+Epoch:  9 Batch:  100 Loss:  1.117980718612671
+Epoch:  9 Batch:  200 Loss:  0.9819408655166626
+Epoch:  9 Batch:  300 Loss:  1.0425060987472534
+Epoch:  9 Batch:  400 Loss:  0.8551169633865356
+[Validation] Epoch:  9 Validation Loss:  1.4197557375028536 Meteor:  0.48681354682894834
+Epoch:  10 Batch:  0 Loss:  0.6482921242713928
+Epoch:  10 Batch:  100 Loss:  0.8337032794952393
+Epoch:  10 Batch:  200 Loss:  1.2489047050476074
+Epoch:  10 Batch:  300 Loss:  1.7643612623214722
+Epoch:  10 Batch:  400 Loss:  1.0885424613952637
+[Validation] Epoch:  10 Validation Loss:  1.4414299618114124 Meteor:  0.48726201033905464
+Epoch:  11 Batch:  0 Loss:  0.8011173009872437
+Epoch:  11 Batch:  100 Loss:  1.2508792877197266
+Epoch:  11 Batch:  200 Loss:  1.1214091777801514
+Epoch:  11 Batch:  300 Loss:  1.015936017036438
+Epoch:  11 Batch:  400 Loss:  0.6007084846496582
+[Validation] Epoch:  11 Validation Loss:  1.4607228706409405 Meteor:  0.4895812592642683
+Epoch:  12 Batch:  0 Loss:  0.7743601202964783
+Epoch:  12 Batch:  100 Loss:  1.0133966207504272
+Epoch:  12 Batch:  200 Loss:  1.5886330604553223
+Epoch:  12 Batch:  300 Loss:  1.1389745473861694
+Epoch:  12 Batch:  400 Loss:  1.1993772983551025
+[Validation] Epoch:  12 Validation Loss:  1.4724742267038915 Meteor:  0.4890557381284455
+Epoch:  13 Batch:  0 Loss:  0.6552340984344482
+Epoch:  13 Batch:  100 Loss:  0.8741622567176819
+Epoch:  13 Batch:  200 Loss:  0.9045850038528442
+Epoch:  13 Batch:  300 Loss:  0.8718656897544861
+Epoch:  13 Batch:  400 Loss:  1.44719398021698
+[Validation] Epoch:  13 Validation Loss:  1.4914388989473317 Meteor:  0.4872284694504874
+Epoch:  14 Batch:  0 Loss:  0.6991867423057556
+Epoch:  14 Batch:  100 Loss:  0.7632724046707153
+Epoch:  14 Batch:  200 Loss:  0.8790838718414307
+Epoch:  14 Batch:  300 Loss:  0.6255663633346558
+Epoch:  14 Batch:  400 Loss:  1.483018398284912
+[Validation] Epoch:  14 Validation Loss:  1.502631062036985 Meteor:  0.485089449740463
+Epoch:  15 Batch:  0 Loss:  0.6759704351425171
+Epoch:  15 Batch:  100 Loss:  0.5399142503738403
+Epoch:  15 Batch:  200 Loss:  0.6891294717788696
+Epoch:  15 Batch:  300 Loss:  0.8737753629684448
+Epoch:  15 Batch:  400 Loss:  1.021860957145691
+[Validation] Epoch:  15 Validation Loss:  1.5233865635735648 Meteor:  0.4868267986081982
+Epoch:  16 Batch:  0 Loss:  1.0788105726242065
+Epoch:  16 Batch:  100 Loss:  0.5751653909683228
+Epoch:  16 Batch:  200 Loss:  0.8955743908882141
+Epoch:  16 Batch:  300 Loss:  0.7219624519348145
+Epoch:  16 Batch:  400 Loss:  0.6461339592933655
+[Validation] Epoch:  16 Validation Loss:  1.5426657633347944 Meteor:  0.48264403493500835
+Epoch:  17 Batch:  0 Loss:  1.5365391969680786
+Epoch:  17 Batch:  100 Loss:  1.4529311656951904
+Epoch:  17 Batch:  200 Loss:  0.5898758172988892
+Epoch:  17 Batch:  300 Loss:  0.6772710680961609
+Epoch:  17 Batch:  400 Loss:  0.7424793243408203
+[Validation] Epoch:  17 Validation Loss:  1.570756058414261 Meteor:  0.48242185825626865
+Epoch:  18 Batch:  0 Loss:  0.9177269339561462
+Epoch:  18 Batch:  100 Loss:  0.6134328842163086
+Epoch:  18 Batch:  200 Loss:  0.5311992168426514
+Epoch:  18 Batch:  300 Loss:  0.43186742067337036
+Epoch:  18 Batch:  400 Loss:  0.6609979867935181
+[Validation] Epoch:  18 Validation Loss:  1.5813702832568775 Meteor:  0.48031687636781284
+Epoch:  19 Batch:  0 Loss:  0.6031473278999329
+Epoch:  19 Batch:  100 Loss:  0.5993760824203491
+Epoch:  19 Batch:  200 Loss:  0.8459888100624084
+Epoch:  19 Batch:  300 Loss:  0.6421782970428467
+Epoch:  19 Batch:  400 Loss:  0.48380810022354126
+[Validation] Epoch:  19 Validation Loss:  1.5937704080111021 Meteor:  0.4811853810685585
+Epoch:  20 Batch:  0 Loss:  0.5513210892677307
+Epoch:  20 Batch:  100 Loss:  0.5471003651618958
+Epoch:  20 Batch:  200 Loss:  0.60235196352005
+Epoch:  20 Batch:  300 Loss:  0.6581137776374817
+Epoch:  20 Batch:  400 Loss:  0.6585143804550171
+[Validation] Epoch:  20 Validation Loss:  1.613058865070343 Meteor:  0.484520527311219
+Epoch:  21 Batch:  0 Loss:  0.38961610198020935
+Epoch:  21 Batch:  100 Loss:  0.7095032930374146
+Epoch:  21 Batch:  200 Loss:  0.9470522403717041
+Epoch:  21 Batch:  300 Loss:  0.6653764843940735
+Epoch:  21 Batch:  400 Loss:  0.6382628083229065
+[Validation] Epoch:  21 Validation Loss:  1.647569534840522 Meteor:  0.4807884787589215
+Epoch:  22 Batch:  0 Loss:  0.38242194056510925
+Epoch:  22 Batch:  100 Loss:  0.6756800413131714
+Epoch:  22 Batch:  200 Loss:  0.62166827917099
+Epoch:  22 Batch:  300 Loss:  0.6787219047546387
+Epoch:  22 Batch:  400 Loss:  0.43453529477119446
+[Validation] Epoch:  22 Validation Loss:  1.668647848940515 Meteor:  0.4784044521525867
+Epoch:  23 Batch:  0 Loss:  0.39073941111564636
+Epoch:  23 Batch:  100 Loss:  0.7256027460098267
+Epoch:  23 Batch:  200 Loss:  0.3893698751926422
+Epoch:  23 Batch:  300 Loss:  0.7386417984962463
+Epoch:  23 Batch:  400 Loss:  0.42606642842292786
+[Validation] Epoch:  23 Validation Loss:  1.6860351477350508 Meteor:  0.4829644121146163
+Epoch:  24 Batch:  0 Loss:  0.7079570889472961
+Epoch:  24 Batch:  100 Loss:  0.30935919284820557
+Epoch:  24 Batch:  200 Loss:  0.8280060291290283
+Epoch:  24 Batch:  300 Loss:  0.42529401183128357
+Epoch:  24 Batch:  400 Loss:  0.6012861132621765
+[Validation] Epoch:  24 Validation Loss:  1.7088610142856449 Meteor:  0.48250176934153244
+Epoch:  25 Batch:  0 Loss:  0.7094631195068359
+Epoch:  25 Batch:  100 Loss:  0.6258140206336975
+Epoch:  25 Batch:  200 Loss:  0.34796521067619324
+Epoch:  25 Batch:  300 Loss:  0.478805810213089
+Epoch:  25 Batch:  400 Loss:  0.8614560961723328
+[Validation] Epoch:  25 Validation Loss:  1.72295597156921 Meteor:  0.4818539210617584
+Epoch:  26 Batch:  0 Loss:  0.7489709854125977
+Epoch:  26 Batch:  100 Loss:  0.6926223635673523
+Epoch:  26 Batch:  200 Loss:  0.8823855519294739
+Epoch:  26 Batch:  300 Loss:  0.5215736627578735
+Epoch:  26 Batch:  400 Loss:  0.4288720190525055
+[Validation] Epoch:  26 Validation Loss:  1.7390923949031087 Meteor:  0.48062483519103905
+Epoch:  27 Batch:  0 Loss:  0.5208985805511475
+Epoch:  27 Batch:  100 Loss:  0.807896614074707
+Epoch:  27 Batch:  200 Loss:  0.580852210521698
+Epoch:  27 Batch:  300 Loss:  0.4386157989501953
+Epoch:  27 Batch:  400 Loss:  0.6211644411087036
+[Validation] Epoch:  27 Validation Loss:  1.7690278175589327 Meteor:  0.4822829560026781
+Epoch:  28 Batch:  0 Loss:  0.8099381923675537
+Epoch:  28 Batch:  100 Loss:  0.33955657482147217
+Epoch:  28 Batch:  200 Loss:  0.45886659622192383
+Epoch:  28 Batch:  300 Loss:  0.38921764492988586
+Epoch:  28 Batch:  400 Loss:  0.4341224133968353
+[Validation] Epoch:  28 Validation Loss:  1.7931496617081877 Meteor:  0.47952441561750264
+Epoch:  29 Batch:  0 Loss:  0.5322434902191162
+Epoch:  29 Batch:  100 Loss:  0.6684907674789429
+Epoch:  29 Batch:  200 Loss:  0.3816561698913574
+Epoch:  29 Batch:  300 Loss:  0.4214571714401245
+Epoch:  29 Batch:  400 Loss:  0.5100263953208923
+[Validation] Epoch:  29 Validation Loss:  1.8213441813146913 Meteor:  0.47820745416765137
+Epoch:  30 Batch:  0 Loss:  0.6673744320869446
+Epoch:  30 Batch:  100 Loss:  0.3782295286655426
+Epoch:  30 Batch:  200 Loss:  0.4399125277996063
+Epoch:  30 Batch:  300 Loss:  0.40243417024612427
+Epoch:  30 Batch:  400 Loss:  0.32962173223495483
+[Validation] Epoch:  30 Validation Loss:  1.8346741338828942 Meteor:  0.47755313685831174
+Epoch:  31 Batch:  0 Loss:  0.21233448386192322
+Epoch:  31 Batch:  100 Loss:  0.29688090085983276
+Epoch:  31 Batch:  200 Loss:  0.810527503490448
+Epoch:  31 Batch:  300 Loss:  0.5991467833518982
+Epoch:  31 Batch:  400 Loss:  0.47966381907463074
+[Validation] Epoch:  31 Validation Loss:  1.8573056080124595 Meteor:  0.4838866132767639
+Epoch:  32 Batch:  0 Loss:  0.5614069104194641
+Epoch:  32 Batch:  100 Loss:  0.33274611830711365
+Epoch:  32 Batch:  200 Loss:  0.326092392206192
+Epoch:  32 Batch:  300 Loss:  0.39623019099235535
+Epoch:  32 Batch:  400 Loss:  0.340279757976532
+[Validation] Epoch:  32 Validation Loss:  1.8789922757582231 Meteor:  0.4738607622192603
+Epoch:  33 Batch:  0 Loss:  0.4961196184158325
+Epoch:  33 Batch:  100 Loss:  0.42647600173950195
+Epoch:  33 Batch:  200 Loss:  0.4273596405982971
+Epoch:  33 Batch:  300 Loss:  0.2939808964729309
+Epoch:  33 Batch:  400 Loss:  0.3145779073238373
+[Validation] Epoch:  33 Validation Loss:  1.8918333069070594 Meteor:  0.4802820801884743
+Epoch:  34 Batch:  0 Loss:  0.32516276836395264
+Epoch:  34 Batch:  100 Loss:  0.413667231798172
+Epoch:  34 Batch:  200 Loss:  0.35642772912979126
+Epoch:  34 Batch:  300 Loss:  0.30955812335014343
+Epoch:  34 Batch:  400 Loss:  0.34824615716934204
+[Validation] Epoch:  34 Validation Loss:  1.91990855916754 Meteor:  0.4787385673917111
+Epoch:  35 Batch:  0 Loss:  0.41539567708969116
+Epoch:  35 Batch:  100 Loss:  0.32824429869651794
+Epoch:  35 Batch:  200 Loss:  0.22771984338760376
+Epoch:  35 Batch:  300 Loss:  0.40635237097740173
+Epoch:  35 Batch:  400 Loss:  0.3600778579711914
+[Validation] Epoch:  35 Validation Loss:  1.936686114057318 Meteor:  0.4782310996889066
+Epoch:  36 Batch:  0 Loss:  0.2724410891532898
+Epoch:  36 Batch:  100 Loss:  0.26127272844314575
+Epoch:  36 Batch:  200 Loss:  0.529715359210968
+Epoch:  36 Batch:  300 Loss:  0.27850449085235596
+Epoch:  36 Batch:  400 Loss:  0.2530755400657654
+[Validation] Epoch:  36 Validation Loss:  1.9597098757694293 Meteor:  0.47862132925183815
+Epoch:  37 Batch:  0 Loss:  0.1714557260274887
+Epoch:  37 Batch:  100 Loss:  0.4505804479122162
+Epoch:  37 Batch:  200 Loss:  0.48915839195251465
+Epoch:  37 Batch:  300 Loss:  0.20686334371566772
+Epoch:  37 Batch:  400 Loss:  0.2906374931335449
+[Validation] Epoch:  37 Validation Loss:  1.993117342521618 Meteor:  0.47751151243653217
+Epoch:  38 Batch:  0 Loss:  0.21927784383296967
+Epoch:  38 Batch:  100 Loss:  0.19015710055828094
+Epoch:  38 Batch:  200 Loss:  0.39467141032218933
+Epoch:  38 Batch:  300 Loss:  0.17285187542438507
+Epoch:  38 Batch:  400 Loss:  0.29104137420654297
+[Validation] Epoch:  38 Validation Loss:  2.018768101543575 Meteor:  0.4786085288628901
+Epoch:  39 Batch:  0 Loss:  0.2946184575557709
+Epoch:  39 Batch:  100 Loss:  0.3819984197616577
+Epoch:  39 Batch:  200 Loss:  0.19160988926887512
+Epoch:  39 Batch:  300 Loss:  0.33458730578422546
+Epoch:  39 Batch:  400 Loss:  0.42783889174461365
+[Validation] Epoch:  39 Validation Loss:  2.044237015309272 Meteor:  0.4791161184434556
+Epoch:  40 Batch:  0 Loss:  0.2522650361061096
+Epoch:  40 Batch:  100 Loss:  0.16443249583244324
+Epoch:  40 Batch:  200 Loss:  0.21418042480945587
+Epoch:  40 Batch:  300 Loss:  0.6599076390266418
+Epoch:  40 Batch:  400 Loss:  0.5049052238464355
+[Validation] Epoch:  40 Validation Loss:  2.047232595357028 Meteor:  0.47882050509831975
+Epoch:  41 Batch:  0 Loss:  0.3550427556037903
+Epoch:  41 Batch:  100 Loss:  0.2614680230617523
+Epoch:  41 Batch:  200 Loss:  0.340948224067688
+Epoch:  41 Batch:  300 Loss:  0.21692125499248505
+Epoch:  41 Batch:  400 Loss:  0.11573907732963562
+[Validation] Epoch:  41 Validation Loss:  2.072860693002676 Meteor:  0.47979944945104264
+Epoch:  42 Batch:  0 Loss:  0.2943795323371887
+Epoch:  42 Batch:  100 Loss:  0.23133739829063416
+Epoch:  42 Batch:  200 Loss:  0.3370031714439392
+Epoch:  42 Batch:  300 Loss:  0.5708274841308594
+Epoch:  42 Batch:  400 Loss:  0.5115275382995605
+[Validation] Epoch:  42 Validation Loss:  2.097169057115332 Meteor:  0.47820214080889556
+Epoch:  43 Batch:  0 Loss:  0.2151130586862564
+Epoch:  43 Batch:  100 Loss:  0.5301211476325989
+Epoch:  43 Batch:  200 Loss:  0.15144658088684082
+Epoch:  43 Batch:  300 Loss:  0.3615172803401947
+Epoch:  43 Batch:  400 Loss:  0.11715144664049149
+[Validation] Epoch:  43 Validation Loss:  2.119436517938391 Meteor:  0.48291025045184405
+Epoch:  44 Batch:  0 Loss:  0.12606537342071533
+Epoch:  44 Batch:  100 Loss:  0.3519502580165863
+Epoch:  44 Batch:  200 Loss:  0.3595653176307678
+Epoch:  44 Batch:  300 Loss:  0.1945527344942093
+Epoch:  44 Batch:  400 Loss:  0.4381272792816162
+[Validation] Epoch:  44 Validation Loss:  2.1366898487140604 Meteor:  0.4825900618870378
+Epoch:  45 Batch:  0 Loss:  0.29356223344802856
+Epoch:  45 Batch:  100 Loss:  0.2146575152873993
+Epoch:  45 Batch:  200 Loss:  0.1869955062866211
+Epoch:  45 Batch:  300 Loss:  0.19600141048431396
+Epoch:  45 Batch:  400 Loss:  0.1752908080816269
+[Validation] Epoch:  45 Validation Loss:  2.149311578118956 Meteor:  0.47795589533672844
+Epoch:  46 Batch:  0 Loss:  0.25501754879951477
+Epoch:  46 Batch:  100 Loss:  0.1529703140258789
+Epoch:  46 Batch:  200 Loss:  0.18413864076137543
+Epoch:  46 Batch:  300 Loss:  0.2662801146507263
+Epoch:  46 Batch:  400 Loss:  0.32285213470458984
+[Validation] Epoch:  46 Validation Loss:  2.1807845583209744 Meteor:  0.475561662793434
+Epoch:  47 Batch:  0 Loss:  0.22491833567619324
+Epoch:  47 Batch:  100 Loss:  0.4063423275947571
+Epoch:  47 Batch:  200 Loss:  0.12385497987270355
+Epoch:  47 Batch:  300 Loss:  0.15327654778957367
+Epoch:  47 Batch:  400 Loss:  0.2154988795518875
+[Validation] Epoch:  47 Validation Loss:  2.1964779457488617 Meteor:  0.4769508996778908
+Epoch:  48 Batch:  0 Loss:  0.20707370340824127
+Epoch:  48 Batch:  100 Loss:  0.12877056002616882
+Epoch:  48 Batch:  200 Loss:  0.1787842959165573
+Epoch:  48 Batch:  300 Loss:  0.22601769864559174
+Epoch:  48 Batch:  400 Loss:  0.22805538773536682
+[Validation] Epoch:  48 Validation Loss:  2.2218148259373454 Meteor:  0.4712124916876864
+Epoch:  49 Batch:  0 Loss:  0.46774041652679443
+Epoch:  49 Batch:  100 Loss:  0.2152015119791031
+Epoch:  49 Batch:  200 Loss:  0.23102152347564697
+Epoch:  49 Batch:  300 Loss:  0.343899667263031
+Epoch:  49 Batch:  400 Loss:  0.14095009863376617
+[Validation] Epoch:  49 Validation Loss:  2.240780548615889 Meteor:  0.47597863518829403
+
+
+        Training Loss        
++---------------------------+
+|Epoch |        Loss        |
+|------+--------------------|
+|  0   | 1.8481466997302982 |
+|  1   | 1.5737974307828908 |
+|  2   |  1.464729456372955 |
+|  3   | 1.3797943874264424 |
+|  4   | 1.3034972620065437 |
+|  5   | 1.2419064565288553 |
+|  6   | 1.1905906723498196 |
+|  7   | 1.1285767204904666 |
+|  8   | 1.0962972766257324 |
+|  9   | 1.0336749378858483 |
+| 10   | 0.9974894063852676 |
+| 11   | 0.9573764174694828 |
+| 12   | 0.9154304440797889 |
+| 13   | 0.8864265346499569 |
+| 14   | 0.8579083880018141 |
+| 15   | 0.8201614819277792 |
+| 16   | 0.7911749809085634 |
+| 17   | 0.7582358358638667 |
+| 18   | 0.7291120681696621 |
+| 19   | 0.7107450041842516 |
+| 20   | 0.6774716269199071 |
+| 21   | 0.6496607113724218 |
+| 22   | 0.6342923176963114 |
+| 23   | 0.6066045867791077 |
+| 24   | 0.5854741066487777 |
+| 25   | 0.5658043279521184 |
+| 26   | 0.5458377629312027 |
+| 27   | 0.5207106698536708 |
+| 28   | 0.5005034437149282 |
+| 29   | 0.4799811009309033 |
+| 30   |  0.467631545270563 |
+| 31   | 0.4503491695359452 |
+| 32   | 0.43609270525721977|
+| 33   | 0.4176956955816674 |
+| 34   | 0.4062262568407741 |
+| 35   | 0.38836684110671216|
+| 36   | 0.3749413067866418 |
+| 37   |  0.368404205329286 |
+| 38   | 0.3465391496587846 |
+| 39   |  0.335041856363106 |
+| 40   | 0.3205574593457284 |
+| 41   | 0.3134883830439962 |
+| 42   | 0.3070676430509217 |
+| 43   | 0.29483223845859596|
+| 44   | 0.28153316941602674|
+| 45   | 0.2752540667324088 |
+| 46   | 0.26294680896449585|
+| 47   | 0.24977157959245644|
+| 48   | 0.24074805504696198|
+| 49   | 0.23624985083490266|
++---------------------------+
+
+
+      Validation Loss       
++--------------------------+
+|Epoch |        Loss       |
+|------+-------------------|
+|  0   | 1.4175805464967506|
+|  1   | 1.3812462834568766|
+|  2   | 1.372876590722567 |
+|  3   | 1.3676418089247369|
+|  4   | 1.3724977350854255|
+|  5   | 1.379741236761019 |
+|  6   | 1.3865852673332413|
+|  7   | 1.4046062741960799|
+|  8   | 1.4058888755835497|
+|  9   | 1.4197557375028536|
+| 10   | 1.4414299618114124|
+| 11   | 1.4607228706409405|
+| 12   | 1.4724742267038915|
+| 13   | 1.4914388989473317|
+| 14   | 1.502631062036985 |
+| 15   | 1.5233865635735648|
+| 16   | 1.5426657633347944|
+| 17   | 1.570756058414261 |
+| 18   | 1.5813702832568775|
+| 19   | 1.5937704080111021|
+| 20   | 1.613058865070343 |
+| 21   | 1.647569534840522 |
+| 22   | 1.668647848940515 |
+| 23   | 1.6860351477350508|
+| 24   | 1.7088610142856449|
+| 25   |  1.72295597156921 |
+| 26   | 1.7390923949031087|
+| 27   | 1.7690278175589327|
+| 28   | 1.7931496617081877|
+| 29   | 1.8213441813146913|
+| 30   | 1.8346741338828942|
+| 31   | 1.8573056080124595|
+| 32   | 1.8789922757582231|
+| 33   | 1.8918333069070594|
+| 34   |  1.91990855916754 |
+| 35   | 1.936686114057318 |
+| 36   | 1.9597098757694293|
+| 37   | 1.993117342521618 |
+| 38   | 2.018768101543575 |
+| 39   | 2.044237015309272 |
+| 40   | 2.047232595357028 |
+| 41   | 2.072860693002676 |
+| 42   | 2.097169057115332 |
+| 43   | 2.119436517938391 |
+| 44   | 2.1366898487140604|
+| 45   | 2.149311578118956 |
+| 46   | 2.1807845583209744|
+| 47   | 2.1964779457488617|
+| 48   | 2.2218148259373454|
+| 49   | 2.240780548615889 |
++--------------------------+
+
+
+        Meteor Score         
++---------------------------+
+|Epoch |       Meteor       |
+|------+--------------------|
+|  0   | 0.4905025541377396 |
+|  1   | 0.4862620821110388 |
+|  2   | 0.4863275162774608 |
+|  3   | 0.4890002696079417 |
+|  4   | 0.4871181435930551 |
+|  5   | 0.4911349028513635 |
+|  6   | 0.4897280953934748 |
+|  7   | 0.48349473851874986|
+|  8   | 0.4905989542236395 |
+|  9   | 0.48681354682894834|
+| 10   | 0.48726201033905464|
+| 11   | 0.4895812592642683 |
+| 12   | 0.4890557381284455 |
+| 13   | 0.4872284694504874 |
+| 14   |  0.485089449740463 |
+| 15   | 0.4868267986081982 |
+| 16   | 0.48264403493500835|
+| 17   | 0.48242185825626865|
+| 18   | 0.48031687636781284|
+| 19   | 0.4811853810685585 |
+| 20   |  0.484520527311219 |
+| 21   | 0.4807884787589215 |
+| 22   | 0.4784044521525867 |
+| 23   | 0.4829644121146163 |
+| 24   | 0.48250176934153244|
+| 25   | 0.4818539210617584 |
+| 26   | 0.48062483519103905|
+| 27   | 0.4822829560026781 |
+| 28   | 0.47952441561750264|
+| 29   | 0.47820745416765137|
+| 30   | 0.47755313685831174|
+| 31   | 0.4838866132767639 |
+| 32   | 0.4738607622192603 |
+| 33   | 0.4802820801884743 |
+| 34   | 0.4787385673917111 |
+| 35   | 0.4782310996889066 |
+| 36   | 0.47862132925183815|
+| 37   | 0.47751151243653217|
+| 38   | 0.4786085288628901 |
+| 39   | 0.4791161184434556 |
+| 40   | 0.47882050509831975|
+| 41   | 0.47979944945104264|
+| 42   | 0.47820214080889556|
+| 43   | 0.48291025045184405|
+| 44   | 0.4825900618870378 |
+| 45   | 0.47795589533672844|
+| 46   |  0.475561662793434 |
+| 47   | 0.4769508996778908 |
+| 48   | 0.4712124916876864 |
+| 49   | 0.47597863518829403|
++---------------------------+
